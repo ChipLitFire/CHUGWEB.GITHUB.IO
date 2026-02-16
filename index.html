@@ -329,9 +329,10 @@
                 <i class="fa-solid fa-house"></i>
                 <span>Home</span>
             </a>
-            <a href="/g.html" class="nav-item">
-                <i class="fa-solid fa-gamepad"></i>
-                <span>Games</span>
+            <!-- Renamed: Games -> Tools, icon gamepad -> tools, href adjusted -->
+            <a href="/tools.html" class="nav-item">
+                <i class="fa-solid fa-tools"></i>
+                <span>Tools</span>
             </a>
             <a href="/a.html" class="nav-item">
                 <i class="fa-solid fa-layer-group"></i>
@@ -362,12 +363,13 @@
             </div>
 
             <div class="cards-container">
+                <!-- Card 1: formerly Games, now Tools -->
                 <div class="glass-card">
                     <div class="card-icon-box">
-                        <i class="fa-solid fa-gamepad"></i>
+                        <i class="fa-solid fa-tools"></i>  <!-- changed icon -->
                     </div>
-                    <h3>Games</h3>
-                    <p>On-demand titles. Low latency.</p>
+                    <h3>Tools</h3>                         <!-- changed title -->
+                    <p>Essential utilities and tools.</p>   <!-- updated description -->
                 </div>
 
                 <div class="glass-card">
@@ -476,7 +478,7 @@
         const words = [
             { text: "SYSTEM READY", icon: "fa-bolt" },
             { text: "SECURE PROXY", icon: "fa-shield-halved" },
-            { text: "", icon: "fa-unlock" },
+            { text: "UNBLOCKED", icon: "fa-unlock" },
             { text: "HIGH SPEED", icon: "fa-gauge-high" }
         ];
         
